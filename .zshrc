@@ -109,3 +109,4 @@ export PATH=$PATH:~/compilestuff/zig
 alias compile-oxwm="sudo /home/fruqal/compilestuff/zig/zig build -Doptimize=ReleaseSmall --prefix /usr"
 alias fetch=".extras/ufetch"
 alias cls="clear"
+alias screenshot-01="bash; import -display :0.1 -colorspace RGB -quality 80 ~/Pictures/screenshot-{ /usr/bin/date +%s }; exit"

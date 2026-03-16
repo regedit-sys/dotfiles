@@ -222,7 +222,7 @@ oxwm.key.bind({ modkey }, "P", oxwm.inc_num_master(-1))
 oxwm.key.bind({ modkey }, "A", oxwm.toggle_gaps())
 
 -- Window manager controls
--- oxwm.key.bind({ modkey, "Shift" }, "Q", oxwm.quit())
+-oxwm.key.bind({ modkey, "Shift" }, "Q", oxwm.quit())
 oxwm.key.bind({ modkey, "Shift" }, "R", oxwm.restart())
 
 -- Focus movement [1 for up in the stack, -1 for down]
@@ -300,10 +300,10 @@ oxwm.key.chord({
     { {},         "T" }
 }, oxwm.spawn_terminal())
 
-oxwm.key.chord({
-	{ { modkey }, "Space"},
-	{ {},	"L" }
-}, oxwm.quit()) -- fuck
+---oxwm.key.chord({
+--	{ { modkey }, "Space"},
+--	{ {},	"L" }
+--}, oxwm.quit()) -- fuck
 
 -------------------------------------------------------------------------------
 -- Autostart

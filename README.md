@@ -7,7 +7,13 @@ my personal dotfiles for my Debian system. use these, or don't. if you do, make 
 install the deps before following the installation guide
 
 ```
-$ sudo apt install lua5.4 libx11-dev libxft-dev libfreetype-dev fontconfig pkg-config
+$ sudo apt install lua5.4 libx11-dev libxft-dev libfreetype-dev fontconfig pkg-config kitty 
+```
+
+also dont forget to grab brave
+
+```
+curl -fsS https://dl.brave.com/install.sh | CHANNEL=nightly sh
 ```
 
 then install oxwm with the Manual Build instructions listed on https://ox-docs.vercel.app/docs/installation.

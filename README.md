@@ -33,6 +33,9 @@ then use GNU stow to create symlinks
 $ stow .
 ```
 
+### keep in mind:
+
+I changed the oxwm quit bind to a chord, which is SUPER+Space, L O G
 
 ### credits
 

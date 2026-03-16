@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$PATH:~/compilestuff/zig
+export PATH=$PATH:~/compilestuff/zig:$HOME/.local/bin/
 
 #aliases
 alias compile-oxwm="sudo /home/fruqal/compilestuff/zig/zig build -Doptimize=ReleaseSmall --prefix /usr"

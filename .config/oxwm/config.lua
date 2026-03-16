@@ -307,7 +307,7 @@ oxwm.key.chord({
 -- Uncomment and modify these examples, or add your own
 
 -- oxwm.autostart("picom")
--- oxwm.autostart("feh --bg-scale ~/wallpaper.jpg")
+oxwm.autostart("feh --bg-scale ~/wallpapers/wallhaven-j3m2ww_1920x1080.png")
 -- oxwm.autostart("dunst")
 -- oxwm.autostart("nm-applet")
-oxwm.autostart("sh .screemlayout/fixed.sh")
+oxwm.autostart("sh .screenlayout/fixed.sh")

@@ -7,7 +7,7 @@ my personal dotfiles for my Debian system. use these, or don't. if you do, make 
 install the deps before following the installation guide
 
 ```
-$ sudo apt install lua5.4 libx11-dev libxft-dev libfreetype-dev fontconfig pkg-config kitty 
+$ sudo apt install stow lua5.4 libx11-dev libxft-dev libfreetype-dev fontconfig pkg-config kitty 
 ```
 
 also dont forget to grab brave

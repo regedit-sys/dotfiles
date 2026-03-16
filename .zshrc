@@ -103,10 +103,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$PATH:~/compilestuff/zig:$HOME/.local/bin/
+export PATH=$PATH:~/compilestuff/zig:/home/fruqal/.local/bin
 
 #aliases
 alias compile-oxwm="sudo /home/fruqal/compilestuff/zig/zig build -Doptimize=ReleaseSmall --prefix /usr"
 alias fetch=".extras/ufetch"
 alias cls="clear"
 alias ss-fullscreen-2clipb="magick import -window root -quality 80 clipboard:"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

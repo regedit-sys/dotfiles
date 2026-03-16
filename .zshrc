@@ -104,5 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=$PATH:~/compilestuff/zig
+
+#aliases
 alias compile-oxwm="sudo /home/fruqal/compilestuff/zig/zig build -Doptimize=ReleaseSmall --prefix /usr"
 alias fetch=".extras/ufetch"
+alias cls="clear"
